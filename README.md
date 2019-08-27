@@ -5,4 +5,4 @@ bitmexRemind
 
 通过ccxt框架调用bitmex的get position方法，解析到当前仓位，当仓位变化时发送提醒到指定邮箱
 
-在mailbox.txt中配置好要发送到的邮箱信息和bitmex apikey和secret，然后执行ccxtTest.py即可
+在mailbox.txt中配置好要发送到的邮箱、密码、smtp服务器、bitmex apikey和secret，然后执行ccxtTest.py即可
